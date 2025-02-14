@@ -14,7 +14,7 @@ function LocationSearch({ onPlaceClick }: LocationSearchProps) {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label className="font-bold">Search</label>
+        <label className="font-bold ">Search</label>
         <input
           onChange={(e) => {
             setTerm(e.target.value);
